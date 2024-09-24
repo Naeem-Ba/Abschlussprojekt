@@ -1,0 +1,254 @@
+.badge-danger {
+    color: red;
+}
+
+.title {
+font-weight: bold;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40 !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #f0ad4e !important;
+}
+
+/* Form Control Margin */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* General Table Styling */
+.table-container {
+    margin: 20px auto;
+    width: 95%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px !important;
+    text-align: center;
+    border-width: 7px !important;
+    font-size: 15px !important;
+    box-shadow: none !important;
+}
+
+/* Header Styles */
+th {
+    background-color: #4A4A4A !important;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Row and Column Styles */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Status Columns */
+.status-up {
+    color: green !important;
+    font-weight: bold;
+}
+
+.status-down {
+    color: red !important;
+    font-weight: bold;
+}
+
+.status-unknown {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Service Columns */
+.ok-col {
+    background-color: #179107 !important;
+    font-weight: bold;
+}
+
+.warn-col {
+    background-color: #C47128 !important;
+    font-weight: bold;
+}
+
+.crit-col {
+    background-color: #CE0000 !important;
+    font-weight: bold;
+}
+
+/* Action Buttons */
+.action-buttons .btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.btn-update {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+.btn-delete {
+    background-color: #CE0000;
+    color: white;
+    border: none;
+}
+
+.btn-agent {
+    background-color: #00478e;
+    color: white;
+    border: none;
+}
+
+.btn-monitor {
+    background-color: #008000;
+    color: white;
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* ============================== */
+/* New Login Page Styles */
+/* ============================== */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.message {
+    color: green;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .login-box {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+
+/* CSS for Spinner */
+#loadingOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+
+.modal {
+    z-index: 9999;
+}
+
+
+.loading-content {
+    text-align: center;
+}
+
+
+#statusMessage {
+    color: #fff;
+    margin-top: 1rem;
+}
